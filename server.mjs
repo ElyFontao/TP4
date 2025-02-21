@@ -13,7 +13,7 @@ app.get('/superheroes/edad/mayorA30', obtenerSuperheroesMayoresDe30Controller);
 // Iniciar el servidor con mensaje mejorado en consola
 app.listen(PORT, () => {
     console.log(`🚀 Servidor corriendo en: ${HOST}:${PORT}`);
-    console.log(`🔗 Accede a: ${HOST}:${PORT}/superheroes/id/6`);
+    console.log(`🔗 Accede a: ${HOST}:${PORT}/superheroes/id/1`);
     console.log(`📌 Para buscar por atributo: ${HOST}:${PORT}/superheroes/atributo/nombreSuperHeroe/Spiderman`);
     console.log(`🦸‍♂️ Superhéroes mayores de 30 años: ${HOST}:${PORT}/superheroes/edad/mayorA30`);
 });

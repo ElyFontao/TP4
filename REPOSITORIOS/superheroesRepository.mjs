@@ -16,4 +16,5 @@ export default class SuperheroesFileRepository extends SuperheroesDataSource {
     const data = fs.readFileSync(this.filePath, 'utf-8');
     return JSON.parse(data);
   }
+
 }
